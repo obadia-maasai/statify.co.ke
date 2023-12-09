@@ -1,0 +1,67 @@
+body {
+    background-image: url("https://images.pexels.com/photos/8386364/pexels-photo-8386364.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Reset default margin */
+}
+
+.about-us-page .container {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: darkcyan;
+    justify-content: center;
+}
+
+.container {
+    padding: 0;
+}
+
+.box {
+    text-align: center;
+    font-family: var(--ff-montserrat); /* Assuming you have a font variable defined */
+    color: rgb(12, 17, 15);
+    background-color:#0693e3;
+    padding: 20px;
+    margin: 20px 0; /* Adjust margin between boxes */
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    border-top-width: 1px !important;
+    border-bottom-width: 1px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border-top-color: #324f6f !important;
+    border-top-style: solid !important;
+    border-bottom-color: #324f6f !important;
+    border-bottom-style: solid !important;
+    
+}
+.box h4{
+    color: greenyellow;
+    
+
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 0 10%; /* Adjust padding for both sides */
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.who-we-are {
+    margin-top: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
